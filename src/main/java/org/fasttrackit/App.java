@@ -17,11 +17,18 @@ public class App {
         System.out.println(summary.getNumber3() + "+" + summary.getNumber4() + "=" + sum);
     }
 
-    Substraction subtraction = new Substraction(9.3, 6.4);
+    Substraction subtraction = new Substraction(9.3, 5.6);
 
     double sub = subtraction.getNumber1() - subtraction.getNumber2();
 
     {
         System.out.println(subtraction.getNumber1() + "-" + subtraction.getNumber2() + "=" + sub);
+    }
+
+    Multiplication multiplication = new Multiplication(5.6, 9.6);
+
+    {
+        double multi = multiplication.getNumber5() * multiplication.getNumber6();
+        System.out.println(multiplication.getNumber5() + "*" + multiplication.getNumber6() + "=" + multi);
     }
 }
