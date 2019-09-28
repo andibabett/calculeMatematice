@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  */
@@ -9,19 +11,15 @@ public class App {
     }
 
 
-    Summary summary = new Summary(5.6, 5.9);
-
-    double sum = summary.getNumber3() + summary.getNumber4();
-
+    Summary summary = new Summary(3.2, 5.6);
     {
+        double sum = summary.getNumber3() + summary.getNumber4();
         System.out.println(summary.getNumber3() + "+" + summary.getNumber4() + "=" + sum);
     }
 
-    Substraction subtraction = new Substraction(9.3, 5.6);
-
-    double sub = subtraction.getNumber1() - subtraction.getNumber2();
-
+    Substraction subtraction = new Substraction(5.6, 6.3);
     {
+        double sub = subtraction.getNumber1() - subtraction.getNumber2();
         System.out.println(subtraction.getNumber1() + "-" + subtraction.getNumber2() + "=" + sub);
     }
 
@@ -32,3 +30,4 @@ public class App {
         System.out.println(multiplication.getNumber5() + "*" + multiplication.getNumber6() + "=" + multi);
     }
 }
+

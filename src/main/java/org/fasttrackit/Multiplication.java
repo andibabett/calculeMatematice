@@ -9,9 +9,7 @@ public class Multiplication {
         this.number6 = number6;
     }
 
-    public void multi(double number5, double number6);
-
-    {
+    public void multi(double number5, double number6) {
         double multi = number5 * number6;
         System.out.println(number5 + "*" + number6 + "=" + multi);
     }

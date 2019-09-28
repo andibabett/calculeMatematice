@@ -8,7 +8,6 @@ public class Summary {
         this.number3 = number3;
         this.number4 = number4;
     }
-
     public void sum(double number3, double number4) {
         double sum = number3 + number4;
         System.out.println(number3 + "+" + number4 + "=" + sum);
