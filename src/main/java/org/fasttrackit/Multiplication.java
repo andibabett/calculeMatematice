@@ -14,6 +14,11 @@ public class Multiplication {
         System.out.println(number5 + "*" + number6 + "=" + multi);
     }
 
+    {
+        double multi = number6 * number5;
+        System.out.println(number6 + "*" + number5 + "=" + multi);
+    }
+
     public double getNumber5() {
         return number5;
     }
