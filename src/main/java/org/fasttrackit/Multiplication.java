@@ -29,4 +29,5 @@ public class Multiplication {
     public void setNumber6(double number6) {
         this.number6 = number6;
     }
+
 }

@@ -29,5 +29,6 @@ public class App {
         double multi = multiplication.getNumber5() * multiplication.getNumber6();
         System.out.println(multiplication.getNumber5() + "*" + multiplication.getNumber6() + "=" + multi);
     }
+
 }
 

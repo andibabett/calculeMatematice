@@ -13,6 +13,11 @@ public class Substraction {
         double sub = number1 - number2;
         System.out.println(number1 + "-" + number2 + "=" + sub);
     }
+    {
+        double sub = number2 - number1;
+        System.out.println( number2 + "-" + number1 + "=" + sub);
+    }
+
 
     public double getNumber1() {
         return number1;
@@ -28,5 +33,13 @@ public class Substraction {
 
     public void setNumber2(double number2) {
         this.number2 = number2;
+    }
+
+    @Override
+    public String toString() {
+        return "Substraction{" +
+                "number1=" + number1 +
+                ", number2=" + number2 +
+                '}';
     }
 }
